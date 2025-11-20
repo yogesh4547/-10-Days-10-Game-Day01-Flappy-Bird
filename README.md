@@ -1,48 +1,64 @@
 Day 02 – Flappy Bird (Unity 2D)
 
-This game is my second project in the 10 Days – 10 Games challenge, where I build a complete small game each day to improve my Unity and C# skills.
-Day 02 is a full Flappy Bird clone featuring responsive movement, scoring, obstacles, UI, and game flow systems.
+This is my second project in the 10 Days – 10 Games Challenge, where I build a complete small game each day to improve my Unity, C#, and overall game development workflow.
+
+Day 02 is a fully featured Flappy Bird clone, including polished movement, procedural pipes, UI systems, scoring, and smooth game flow.
 
 🕹 Gameplay Overview
 
-You control a small bird that continuously falls due to gravity. Tap or press space to make it jump upward and navigate through randomly generated pipe gaps. Each successful gap gives 1 point. Colliding with any pipe or the ground ends the game.
+You control a small bird affected by gravity. Tap or press space to flap upward and navigate through the gaps between incoming pipes.
+Each passed gap awards 1 point.
+Hitting a pipe or the ground causes an immediate Game Over.
 
 ✨ Features Implemented
 
 Physics-based bird movement using Rigidbody2D
 
-Smooth rotation based on vertical velocity
+Smooth rotation that matches vertical velocity
 
-Random pipe spawning with adjustable height range
+Randomized pipe spawning with configurable height ranges
 
-Scoring trigger between pipes
+Score trigger between pipes
 
-Seamless background scrolling
+Infinite scrolling background
 
-Start panel and Game Over panel
+Start screen & Game Over panel
 
 Restart button
 
-High score saving using PlayerPrefs
+High score saving via PlayerPrefs
 
-Clean and simple mobile-friendly design
+Mobile-friendly input (tap / click)
+
+Clean, optimized, beginner-friendly project structure
 
 🎮 Controls
-
-Keyboard:
+Keyboard
 
 Space – Jump
 
-Restart (after game over)
+Restart (after Game Over)
 
-Mouse / Touch:
+Mouse / Touch
 
 Left Click / Tap – Jump
 
 📈 Extra Additions
 
-Time freeze on Game Over
+Freeze gameplay on Game Over for clean transitions
 
-Simple object pooling–free spawning
+Fully working high score UI that updates automatically
 
-High score UI automatically updates
+Simple, clean spawning system without object pooling
+
+Adjustable difficulty (pipe speed, spawn rate, gap size)
+
+🎨 Asset Credits
+
+All visual assets used in this project come from these creators:
+
+Bird, Pipes, Ground:
+https://megacrash.itch.io/flappy-bird-assets
+
+Clouds / Background Elements:
+https://jan-elijo.itch.io/cloudy-pack
